@@ -92,6 +92,3 @@ def json_respon(code=200, msg="OK", errors=None, data=None):
     if errors: _response.update({errors: errors})
     if data: _response.update({data: data})
     return jsonify(_response), code
-
-if __name__ == "__main__":
-    app.run(debug=True)
