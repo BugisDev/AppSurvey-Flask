@@ -34,7 +34,7 @@ class Question(db.Model):
     
     # Fields
     id = db.Column(db.Integer, primary_key=True)
-    text = db.Column(db.String(120))
+    text = db.Column(db.String(512))
     created_at = db.Column(db.DateTime, default=datetime.now)
     
     def __init__(self, text):
