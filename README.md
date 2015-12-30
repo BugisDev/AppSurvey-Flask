@@ -29,5 +29,6 @@
 - I'm using PostgreSQL so if you want to use MySQL run `pip install MySQL-Python` and set the Database Uri using MySQL.
 - [update] If you want to start the built-in web server, `python manage.py runserver`
 - [update] If you want to open the shell, `python manage.py shell`
+- [update] If you want to put this app to production, you should turn off the Debugging Mode in `config.py` just set `DEBUG=False`
 
 # Happy Hacking
