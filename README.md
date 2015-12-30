@@ -27,5 +27,7 @@
 - If you changes any models inside models.py, run `python manage.py db migrate` before run the command above.
 - And then you ready to rock.
 - I'm using PostgreSQL so if you want to use MySQL run `pip install MySQL-Python` and set the Database Uri using MySQL.
+- [update] If you want to start the built-in web server, `python manage.py runserver`
+- [update] If you want to open the shell, `python manage.py shell`
 
 # Happy Hacking
