@@ -29,4 +29,6 @@ CSRF_SESSION_KEY = 'ad190242b1dd440584ab5324688526f0'
 
 # DATABASE CONFIG
 SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URI', None)
+
+# set to False if you want to put in production
 DEBUG=True
