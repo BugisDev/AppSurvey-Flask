@@ -19,12 +19,13 @@
 
 - Create virtual environment (or not, choose wisely)
 - Install all the requirements package/library from requirements.txt `pip install -r requirements.txt`
-- The Database Uri using shell environment, so if you use (example):
+- Set The Database Uri using shell environment, so if you use (example):
     - Bash/Sh/Zsh: `export DATABASE_URI='postgresql://bugisdev:@localhost/app'`
     - Fish: `set -x DATABASE_URI postgresql://bugisdev:@localhost/app`
 - Run the migrate:
     ```python manage.py db upgrade```
 - If you changes any models inside models.py, run `python manage.py db migrate` before run the command above.
 - And then you ready to rock.
+- I'm using PostgreSQL so if you want to use MySQL run `pip install MySQL-Python` and set the Database Uri using MySQL.
 
 # Happy Hacking
